@@ -9,9 +9,14 @@ class ContratoFuncionarios(BaseModel):
     Classe de Contrato de Dados, recebendo o BaseModel do Pydantic.
 
     Args:
-        BaseModel: Classe base do Pydantic.
+        id (int): Identificador do funcionário.
+        nome (str): Nome do funcionário.
+        datenascimento (datetime): Data de nascimento do funcionário.
+        email (str): E-mail do funcionário.
+        cargo (EmailStr): Cargo do funcionário.
+        departamento (str): Departamento do funcionário.
     """
-    
+
     id: PositiveInt
     nome: str
     idade: PositiveInt

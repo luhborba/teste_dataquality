@@ -1,0 +1,21 @@
+site_name: Projeto DataQuality
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Modo Claro
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Modo Escuro
+
+  language: pt
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
