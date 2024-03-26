@@ -10,7 +10,7 @@ def validar(file):
     Função responsável pela validação do arquivo em formato csv de acordo com o contrado de dados.
 
     Args:
-        file: Arquivo csv.
+        file: Arquivo csv que vem do streamlit.
     """
     try:
         df = pd.read_csv(file)
