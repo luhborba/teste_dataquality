@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dataquality-aovivo"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Borba <luhborbafilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.31.1"
+black = "^24.2.0"
+pydantic = {extras = ["email"], version = "^2.6.3"}
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
