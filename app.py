@@ -1,4 +1,4 @@
-"""Arquivo de configuração do Streamlit."""
+"""Arquivo de Interface Visual."""
 import pandas as pd
 import streamlit as st
 
